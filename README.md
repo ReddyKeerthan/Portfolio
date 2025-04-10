@@ -15,20 +15,6 @@ This is a simple and responsive **Personal Portfolio Website** built using **HTM
 - **CSS3** – for styling and responsive layout
 - **JavaScript** – for interactivity
 
-## 📁 Folder Structure
-
-
-📂 PORTFOLIO/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── assets/
-    └── images/
-
-> *The actual structure may vary depending on your setup.*
-
 ## 🚀 Getting Started
 
 To run the website locally:
@@ -50,8 +36,6 @@ Feel free to edit the HTML, CSS, or JavaScript files to reflect your own content
 ## 📬 Contact
 
 If you'd like to get in touch, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/keerthanreddyps/) or [email](keerthanreddy262003@gmail.com).
-
 ---
-
-💡 *This project is a great starting point for anyone looking to build their personal brand online!*
+💡 This project is a great starting point for anyone looking to build their personal brand online!
 ```
