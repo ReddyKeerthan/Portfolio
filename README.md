@@ -36,6 +36,4 @@ Feel free to edit the HTML, CSS, or JavaScript files to reflect your own content
 ## 📬 Contact
 
 If you'd like to get in touch, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/keerthanreddyps/) or [email](keerthanreddy262003@gmail.com).
----
 💡 This project is a great starting point for anyone looking to build their personal brand online!
-```
