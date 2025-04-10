@@ -1,8 +1,3 @@
-Awesome! Based on that, here's a clean and professional `README.md` you can use for your personal portfolio website repository:
-
----
-
-```markdown
 # 🌐 Personal Portfolio Website
 
 This is a simple and responsive **Personal Portfolio Website** built using **HTML**, **CSS**, and **JavaScript**. It showcases personal information, skills, and projects in a clean and professional format.
@@ -22,7 +17,7 @@ This is a simple and responsive **Personal Portfolio Website** built using **HTM
 
 ## 📁 Folder Structure
 
-```
+
 📂 PORTFOLIO/
 ├── index.html
 ├── css/
@@ -31,7 +26,6 @@ This is a simple and responsive **Personal Portfolio Website** built using **HTM
 │   └── script.js
 └── assets/
     └── images/
-```
 
 > *The actual structure may vary depending on your setup.*
 
@@ -61,7 +55,3 @@ If you'd like to get in touch, feel free to reach out via [LinkedIn](https://www
 
 💡 *This project is a great starting point for anyone looking to build their personal brand online!*
 ```
-
----
-
-Let me know if you want to add GitHub stats, a license section, or link it to a live demo site (like GitHub Pages)!
