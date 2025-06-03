@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthan Reddy - Portfolio</title>
+    <link rel="icon" href="images/Logo.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e46a41eb39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.gif" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Builds">Builds</a></li>
+                    <li><a href="#contact">Connect</a></li>   
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>                
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <br><br><br><br><br><br><br><br><br>
+                <h1>Hi, I'm <span>P S Keerthan Reddy</span><br>From Bengaluru</h1>
+            </div>
+        </div>
+</div>
+
+<!-- ----------A B O U T---------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="profile-img" src="images/user.gif">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a 4th-year BE student in Information Science & Engineering at
+                    Vemana Institute of Technology, specializing in software development,
+                    full-stack development, and database management. With expertise 
+                    in Python, and MySQL, I am also exploring data analysis. Passionate
+                    about problem-solving and innovation, I seek opportunities to learn,
+                    grow, and contribute to impactful projects.
+                    <br>
+                    <br>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('Offbeat')">Offbeat</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills"><br>
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python</li><br>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript, Django, 
+                                MySQL</li><br>
+                            <li><span>Tools & Software</span><br>Microsoft Office</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship"><br>
+                        <ul>
+                            <li><span>DevMinds</span><br>Full-Stack Web Development</li><br>
+                            <li><span>Rooman Technologies</span><br>DevOps Engineer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education"><br>
+                        <ul>
+                            <li><span>UG (2021-2025)</span><br>ISE, Vemana Institute of Technology,
+                                Bengaluru  |  7.9/10</li><br>
+                            <li><span>Pre-University (2021)</span><br>Seshadripuram PU College, 
+                                Bengaluru  |  78%</li><br>
+                            <li><span>SSLC (2019)</span><br>Army Public School PRTC, Bengaluru  |  
+                                74%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications"><br>
+                        <ul>
+                            <li><span>Programming & Development</span> <br>Basics of Python </li><br>
+                            <li><span>Data & Analytics</span><br> Basics of Excel</li><li>SQL Certified</li><br>
+                            <li><span>Ongoing & Upcoming</span><br> Full-Stack Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Offbeat"><br>
+                        <ul>
+                            <li><span>Creative Arts & Expression</span><br>Won 3 Instagram photo 
+                            contests for nature and abstract pictures.<br>Trained in Carnatic singing;
+                            performed at school and local events.</li><br>
+                            <li><span>Leadership & Exploration</span><br>Member of Leo Club; took part
+                            in service and leadership activities.<br>Explored nature trails around
+                            and eager to continue discovering new places across
+                            the world.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------B U I L D S---------- -->
+ <div id="Builds">
+    <div class="container">
+        <h1 class="sub-title">Builds</h1>
+        <div class="Builds-list">
+            <div>
+                <i class="fa-regular fa-message"></i>
+                <h2>JS Bot</h2>
+                <p>Created a cross-platform chatbot using JavaScript with realtime 
+                response capabilities and a knowledge-based system. 
+                Directed continuous improvements to boost its functionality.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-calendar-check"></i>
+                <h2>Online Veterinary Appointment System</h2>
+                <p>Implemented an online booking system for pet appointments,
+                eliminating physical visits and calls.Automated scheduling to 
+                optimize clinic resources and improve pet care quality.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-list-check"></i>
+                <h2>To-Do-List</h2>
+                <p>Developed a dynamic task management system enabling users to
+                create and edit tasks directly in the list for flexibility and 
+                convenience. Utilized CSS and JavaScript to ensure an attractive, 
+                responsive interface across devices.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-volume-high"></i>
+                <h2>Robo Speaker - Text to Speech</h2>
+                <p>RoboSpeaker is a Flask-based web app that converts text to speech
+                using the `pyttsx3` engine. Users can type text, click "Speak,"
+                and hear it read aloud with a voice of their choice. 
+                It features a clean UI with a spoken message history display.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Streamlit-based Twitter Data Analysis App</h2>
+                <p>A Streamlit app for Twitter data analysis with user authentication, 
+                tweet fetching via Tweepy or CSV, Word Clouds, LDA Topic Modeling, and
+                sentiment analysis. Data is stored in SQLite.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<br><br><br><br><br>
+<!-- ----------P O R T F O L I O---------- -->
+
+<!-- ----------C O N T A C T---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Connect</h1>
+                <p><i class="fa-solid fa-envelope"></i> keerthanreddy262003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 90087 28064</p>
+                
+                <!-- Social Icons -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/keerthanreddyps/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/ReddyKeerthan"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/keerthanreddyyy/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <!-- Download CV Button -->
+                <div class="contact-buttons">
+                    <a href="images/Keerthan Main CV.pdf" download class="btn">Download CV</a> 
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                    <!-- Send Message Button -->
+                    <div class="contact-buttons">
+                        <button type="submit" class="btn send-message">Send Message</button>
+                    </div>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copright © Keerthan Reddy. Made With <i class="fa-solid fa-heart"></i>.</p>
+    </div>
+</div>
+
+<script>
+    var tabLinks = document.querySelectorAll(".tab-links");
+    var tabContents = document.querySelectorAll(".tab-contents");
+
+    function opentab(tabname){
+        tabLinks.forEach(link => link.classList.remove("active-link"));
+    tabContents.forEach(content => content.classList.remove("active-tab"));
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwXoPiDywoQJ7Mx9D1Vy2_wzVetb_GerEfD1yC17rKJl61ehqeBER1k61vOznhfrL1yKA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent !! 🎉"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
