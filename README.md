@@ -28,7 +28,7 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Design**: Responsive layout, custom styles
-- **Hosting**: GitHub Pages + Custom Domain (`keerthanreddyportfolio.com`)
+- **Hosting**: GitHub Pages 
 
 ---
 
