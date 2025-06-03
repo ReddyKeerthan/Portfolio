@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, achievements, and the journey I've taken as a student, developer, and aspiring professional.
 
-🌐 **Live URL**: https://reddykeerthan.github.io/Portfolio/#header
+🌐 **Live URL**: https://reddykeerthan.github.io/Portfolio/#home
 
 ---
 
